@@ -7,8 +7,7 @@ El simulador recibe parámetros a través de los parámetros de lanzamientos. En
 - -m + [Mode]: Indica el modo de ejecución del programa. Existe la versión de console ("batch") e interfaz gráfica ("gui"). Este parámetro es
 obligatorio.
 - -o + [path]: Indica el path del archivo de salida donde, por pasos de simulación, se indica cómo ha resultado la emulación y cual es estado de
-cada vehículo, carretera y cruce en cada instante. 
-### Este parámetro tampoco es obligatorio.
+cada vehículo, carretera y cruce en cada instante. Este parámetro tampoco es obligatorio.
 
 Un ejemplo de comando de parámetro es: -m gui -i resources/examples/cruces1.ini -o resources/examples/cruces1.ini.eout
 
